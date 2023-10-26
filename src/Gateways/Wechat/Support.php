@@ -10,10 +10,10 @@ use Yansongda\Pay\Exceptions\InvalidArgumentException;
 use Yansongda\Pay\Exceptions\InvalidSignException;
 use Yansongda\Pay\Gateways\Wechat;
 use Yansongda\Pay\Log;
+use Yansongda\Pay\Traits\HasHttpRequest;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Config;
 use Yansongda\Supports\Str;
-use Yansongda\Supports\Traits\HasHttpRequest;
 
 /**
  * @author yansongda <me@yansongda.cn>

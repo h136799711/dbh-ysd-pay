@@ -10,11 +10,11 @@ use Yansongda\Pay\Exceptions\InvalidConfigException;
 use Yansongda\Pay\Exceptions\InvalidSignException;
 use Yansongda\Pay\Gateways\Alipay;
 use Yansongda\Pay\Log;
+use Yansongda\Pay\Traits\HasHttpRequest;
 use Yansongda\Supports\Arr;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Config;
 use Yansongda\Supports\Str;
-use Yansongda\Supports\Traits\HasHttpRequest;
 
 /**
  * @author yansongda <me@yansongda.cn>
