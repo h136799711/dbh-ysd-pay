@@ -2,7 +2,6 @@
 
 namespace Yansongda\Pay;
 
-use Yansongda\Supports\Log as BaseLog;
 
 /**
  * @method static void emergency($message, array $context = array())

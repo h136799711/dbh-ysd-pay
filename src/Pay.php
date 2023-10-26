@@ -9,7 +9,6 @@ use Yansongda\Pay\Gateways\Alipay;
 use Yansongda\Pay\Gateways\Wechat;
 use Yansongda\Pay\Listeners\KernelLogSubscriber;
 use Yansongda\Supports\Config;
-use Yansongda\Supports\Log;
 use Yansongda\Supports\Logger;
 use Yansongda\Supports\Str;
 
